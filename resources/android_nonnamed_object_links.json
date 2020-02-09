@@ -1,0 +1,4 @@
+{
+    "execute([Ljava/lang/Object;)Landroid/os/AsyncTask;": "doInBackground",
+    "execute(Ljava/lang/Runnable;)V": "doInBackground"
+}

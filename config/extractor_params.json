@@ -1,0 +1,14 @@
+{
+    "type": "value",
+    "from": {
+        "methods": [
+            "Landroid/bluetooth/BluetoothGatt;->writeCharacteristic(Landroid/bluetooth/BluetoothGattCharacteristic;)Z",
+            "Landroid/bluetooth/BluetoothGatt;->readCharacteristic(Landroid/bluetooth/BluetoothGattCharacteristic;)Z",
+            "Landroid/bluetooth/BluetoothGatt;->setCharacteristicNotification(Landroid/bluetooth/BluetoothGattCharacteristic;Z)Z",
+            "Landroid/bluetooth/BluetoothGattService;->getCharacteristic(Ljava/util/UUID;)Landroid/bluetooth/BluetoothGattCharacteristic;"
+        ],
+        "register": "argto",
+        "argindex": 1
+    },
+    "direction": "reverse"
+}
