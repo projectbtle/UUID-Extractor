@@ -38,10 +38,14 @@ class UUIDExtractorMain:
             self.base_dir,
             'input_output'
         ))
+        if not os.path.isdir(self.io_dir):
+            os.mkdir(self.io_dir)
         self.log_dir = os.path.abspath(os.path.join(
             self.base_dir,
             'logs'
         ))
+        if not os.path.isdir(self.log_dir):
+            os.mkdir(self.log_dir)
         date_time = time.strftime("%Y-%m-%d_%H-%M")
         self.error_log = os.path.join(
             self.log_dir,
